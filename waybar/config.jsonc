@@ -1,0 +1,24 @@
+{
+  "output": "HDMI-A-1",
+  "layer": "top",
+  "margin-top": 10,
+  "margin-left": 10,
+  "margin-right": 10,
+  "height": 38,
+  "spacing": 6,
+  "include": [
+    "./modules/clock.jsonc",
+    "./modules/arch.jsonc",
+    "./modules/workspaces.jsonc",
+    "./modules/power.jsonc",
+    "./modules/network.jsonc", 
+    "./modules/bluetooth.jsonc",
+    "./modules/tray.jsonc",
+    "./modules/audio.jsonc",
+    "./modules/lang.jsonc"
+
+    ],
+  "modules-left": ["custom/arch", "tray"],
+  "modules-center": ["ext/workspaces"],
+  "modules-right": ["pulseaudio", "hyprland/language", "bluetooth", "network", "clock", "custom/power"] 
+}

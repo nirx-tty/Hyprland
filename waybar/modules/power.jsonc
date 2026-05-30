@@ -1,0 +1,9 @@
+{
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    
+    // При клике запускаем wlogout на весь экран
+    "on-click": "wlogout"
+  }
+}

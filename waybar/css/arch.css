@@ -1,0 +1,15 @@
+#custom-arch {
+    background-color: rgba(36, 39, 58, 0.75); /* Мягкий цвет темного облака */
+    border-radius: 20px;
+    margin: 6px 4px 6px 12px; /* Отступ от левого края экрана */
+    padding: 4px 14px;
+    padding-left: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    transition: all 0.25s ease;
+}
+
+#custom-arch:hover {
+    background-color: rgba(36, 39, 58, 0.95);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}

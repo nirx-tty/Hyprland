@@ -1,0 +1,48 @@
+/* Контейнер воркспейсов */
+#workspaces {
+    background-color: rgba(36, 39, 58, 0.75); 
+    border-radius: 20px;
+    margin: 6px 4px;
+    padding: 4px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Базовый стиль для НЕАКТИВНЫХ столов (Идеальный КРУГ 1 к 1) */
+#workspaces button {
+    /* Уменьшили до 3px, чтобы убрать микро-овальность и сделать идеальный круг */
+    padding-left: 3px;
+    padding-right: 3px;
+    
+    margin: 0 5px;             
+    min-height: 8px;
+    border-radius: 99px; 
+    
+    background-color: #5b6078; 
+    border: none;
+    box-shadow: none;
+    
+    transition: all 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Неактивные столы с открытыми окнами (тоже идеальный круг) */
+#workspaces button.visible {
+    background-color: #cad3f5;
+    padding-left: 3px;
+    padding-right: 3px;
+    min-height: 8px;
+    border-radius: 99px;
+}
+
+/* АКТИВНЫЙ воркспейс — длинная, плотная и супер-скругленная капсула */
+#workspaces button.active {
+    background-color: #ffffff; 
+    
+    /* Оставляем длинную изящную пилюлю */
+    padding-left: 14px;
+    padding-right: 14px;
+    
+    min-height: 8px;
+    border-radius: 99px; 
+    
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
