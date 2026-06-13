@@ -1,11 +1,11 @@
 {
-    "pulseaudio": {
-    "format": "{icon} {volume}%",
-    "format-muted": "   Muted",
+  "pulseaudio": {
+
+    "format": "<span font_family='Material Icons'>{icon}</span> {volume}%",
+    "format-muted": "<span font_family='Material Icons'></span> Muted",
     "format-icons": {
-      "default": ["  ", "  ", "  "]
+      "default": ["", "", ""]
     },
-    
     "on-click": "pavucontrol"
-}
+  }
 }

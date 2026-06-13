@@ -1,0 +1,84 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "small",
+        "padding": {
+            "top": 2,
+            "left": 3
+        },
+        "color": {
+            "1": "36", 
+            "2": "34"  
+        }
+    },
+    "display": {
+        "separator": " ── ",
+        "key": {
+            "width": 12
+        }
+    },
+    "modules": [
+        {
+            "type": "title",
+            "key": "  ",
+            "keyColor": "35",
+            "format": "{user-name}@{host-name}"
+        },
+        {
+            "type": "custom",
+            "format": "──────────────────────────────────────",
+            "outputColor": "34"
+        },
+        {
+            "type": "os",
+            "key": " 󰣇 sys",
+            "keyColor": "36"
+        },
+        {
+            "type": "kernel",
+            "key": " 󰅚 ker",
+            "keyColor": "36",
+            "format": "{release}"
+        },
+        {
+            "type": "uptime",
+            "key": " 󰅐 upt",
+            "keyColor": "36"
+        },
+        {
+            "type": "packages",
+            "key": " 󰏖 pkg",
+            "keyColor": "36"
+        },
+        {
+            "type": "shell",
+            "key": " 󱆃 sh",
+            "keyColor": "36"
+        },
+        {
+            "type": "terminal",
+            "key": " 󰆍 term",
+            "keyColor": "36"
+        },
+        {
+            "type": "memory",
+            "key": " 󰍛 mem",
+            "keyColor": "36"
+        },
+        {
+                    "type": "colors",
+                    "key": " 󰏘 rgb",
+                    "keyColor": "35",
+                    "margin-right": 1,
+                    "symbol": "block",
+                    "block": {
+                        "range": [0, 7] // Печатать только первый ряд (8 основных цветов)
+                    }
+                },
+                {
+                    "type": "custom",
+                    "format": "──────────────────────────────────────",
+                    "outputColor": "34"
+                }
+    ]
+}

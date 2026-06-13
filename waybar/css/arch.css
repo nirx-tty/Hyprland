@@ -1,11 +1,22 @@
 #custom-arch {
-    background-color: rgba(36, 39, 58, 0.75); /* Мягкий цвет темного облака */
-    border-radius: 20px;
-    margin: 6px 4px 6px 12px; /* Отступ от левого края экрана */
-    padding: 4px 14px;
-    padding-left: 14px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans", sans-serif;
+    font-size: 16px;
     color: #ffffff;
+
+    background-color: rgba(36, 39, 58, 0.75); 
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin: 6px 4px 6px 12px; 
+    
+    /* Делаем отступы одинаковыми, чтобы овал был идеальным */
+    padding: 6px 17.5px 6px 13.8px; 
+    
+    /* 
+       Принудительно центрируем сам глиф шрифта по вертикали.
+       Если иконка всё еще чуть низко, уменьшай это значение (например, до 0.9 или 0.8)
+    */
+
+    
     transition: all 0.25s ease;
 }
 

@@ -1,5 +1,7 @@
 #network, #bluetooth {
-    background-color: rgba(36, 39, 58, 0.75); border-radius: 20px; margin: 6px 4px; padding: 4px 14px; min-height: 18px; border: 1px solid rgba(255, 255, 255, 0.05); color: #ffffff; transition: all 0.25s ease;
+    font-family: "Material Icons", "Material Icons Regular", "Nunito";
+    background-color: rgba(36, 39, 58, 0.75); border-radius: 20px; margin: 6px 4px; padding: 4px 14px; min-height: 18px; border: 1px solid rgba(255, 255, 255, 0.05); color: #ffffff; transition: all 0.25s ease; font-size: 16px;
 }
 #bluetooth.disabled, #network.disconnected { color: rgba(255, 255, 255, 0.3); }
 #network:hover, #bluetooth:hover { background-color: rgba(36, 39, 58, 0.95); box-shadow: 0 0 12px rgba(255, 255, 255, 0.2); }
+

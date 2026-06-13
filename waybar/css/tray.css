@@ -1,4 +1,5 @@
 #tray {
-    background-color: rgba(36, 39, 58, 0.75); border-radius: 20px; margin: 6px 4px; padding: 4px 14px; border: 1px solid rgba(255, 255, 255, 0.05);
+    
+    background-color: rgba(36, 39, 58, 0.75); border-radius: 20px; margin: 6px 4px; padding: 4px 14px; border: 1px solid rgba(255, 255, 255, 0.05); font-size: 16px; color: #ffffff; transition: all 0.25s ease;
 }
 #tray > .passive, #tray > .active, #tray > .needs-attention { padding: 0 3px; }

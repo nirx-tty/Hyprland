@@ -1,0 +1,32 @@
+[
+    {
+        "label": "lock",
+        "action": "hyprlock",
+        "text": "Блокировка",
+        "keybind": "l"
+    },
+    {
+        "label": "suspend",
+        "action": "systemctl suspend",
+        "text": "Сон",
+        "keybind": "u"
+    },
+    {
+        "label": "reboot",
+        "action": "reboot",
+        "text": "Перезагрузка",
+        "keybind": "r"
+    },
+    {
+        "label": "uefi",
+        "action": "systemctl reboot --firmware-setup",
+        "text": "UEFI настройки",
+        "keybind": "f"
+    },
+    {
+        "label": "shutdown",
+        "action": "shutdown now",
+        "text": "Выключение",
+        "keybind": "s"
+    }
+]
